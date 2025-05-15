@@ -1,0 +1,17 @@
+const TodaySuggest = () => {
+  return (
+    <div>
+      <h2 className="border-b-primary border-b-4 ">
+        <button className="bg-primary text-white px-5 py-2 font-bold rounded-t-lg">Gợi ý hôm nay</button>
+      </h2>
+      <div className="py-2">
+        <div className="p-4 border border-primary rounded-lg">
+          {/* {tabs.map((tab: any) => (activeTab === tab.id ? <div key={tab.id}>{tab.content}</div> : null))} */}
+          {/* <SildeProduct /> */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TodaySuggest;

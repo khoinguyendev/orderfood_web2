@@ -1,0 +1,26 @@
+# Node.js / Vite
+frontend/node_modules/
+frontend/gitignore
+frontend/git
+
+# Java / Spring Boot
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.iml
+backend/*.iml
+backend/src/main/resources/application.properties
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.idea/
+*.iml
+*.swp
+.vscode/
+*.log
+
+# Docker related
+**/.dockerignore
